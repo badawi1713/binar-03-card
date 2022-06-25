@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Montserrat, "sans-serif";
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+#greeting-text {
+    color: #27cb06;
+}
+
+.container {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 0 auto;
+    width: 334px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.container h2 {
+    margin-top: 64px;
+    font-size: 16px;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+.flex-center {
+        min-height: 100vh;
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+
+.card-list-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 423px;
+}
+
+.card {
+    width: 344px;
+    min-width: 252px;
+    box-shadow: 1px 3px 8px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.card-content > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content div > h1 {
+    color: #032954;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-content div > p {
+    font-size: 16px;
+    color: #616161;
+}
+
+.card-content h2 {
+    font-size: 16px;
+    color: #616161;
+}
+
+.card-content h2 > span {
+    font-weight: 700;
+}
